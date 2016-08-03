@@ -23,7 +23,7 @@ import com.tiagoderlan.showcase.tasks.GetDataAsyncTask;
 import com.tiagoderlan.showcase.tasks.enums.GetDataTaskResult;
 
 /**
- * Created by Pichau on 28/07/2016.
+ * Created by Tiago on 28/07/2016.
  */
 public class ProductsFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener, OnUpdateCallback, AdapterView.OnItemClickListener
 {

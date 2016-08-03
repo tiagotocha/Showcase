@@ -19,7 +19,7 @@ import com.tiagoderlan.showcase.tasks.ImageLoadTask;
 import com.tiagoderlan.showcase.utils.FormatUtils;
 
 /**
- * Created by Pichau on 02/08/2016.
+ * Created by Tiago on 02/08/2016.
  */
 public class SimilarProductFragment extends Fragment implements View.OnClickListener
 {

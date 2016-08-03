@@ -20,7 +20,7 @@ import com.tiagoderlan.showcase.models.Category;
 import com.tiagoderlan.showcase.models.collections.CategoryCollection;
 
 /**
- * Created by Pichau on 01/08/2016.
+ * Created by Tiago on 01/08/2016.
  */
 public class MenuFragment extends Fragment implements TextWatcher, AdapterView.OnItemClickListener
 {

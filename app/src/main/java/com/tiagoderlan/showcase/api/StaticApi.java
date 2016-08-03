@@ -23,7 +23,7 @@ import java.net.URL;
 import javax.net.ssl.HttpsURLConnection;
 
 /**
- * Created by Pichau on 28/07/2016.
+ * Created by Tiago on 28/07/2016.
  */
 public class StaticApi
 {

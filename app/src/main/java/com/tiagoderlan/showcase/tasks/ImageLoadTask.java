@@ -14,7 +14,7 @@ import com.tiagoderlan.showcase.tasks.enums.ImageLoadTaskProgress;
 import com.tiagoderlan.showcase.tasks.enums.ImageLoadTaskResult;
 
 /**
- * Created by Pichau on 01/08/2016.
+ * Created by Tiago on 01/08/2016.
  */
 public class ImageLoadTask extends AsyncTask<String, ImageLoadTaskProgress, ImageLoadTaskResult>
 {

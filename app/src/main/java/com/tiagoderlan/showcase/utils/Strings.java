@@ -1,7 +1,7 @@
 package com.tiagoderlan.showcase.utils;
 
 /**
- * Created by Pichau on 01/08/2016.
+ * Created by Tiago on 01/08/2016.
  */
 public class Strings {
 

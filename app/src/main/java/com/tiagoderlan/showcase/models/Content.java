@@ -8,7 +8,7 @@ import android.graphics.BitmapFactory;
 import com.tiagoderlan.showcase.interfaces.DatabaseEntity;
 
 /**
- * Created by Pichau on 01/08/2016.
+ * Created by Tiago on 01/08/2016.
  */
 public class Content implements DatabaseEntity
 {

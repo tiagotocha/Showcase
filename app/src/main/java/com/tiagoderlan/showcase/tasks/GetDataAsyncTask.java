@@ -17,7 +17,7 @@ import com.tiagoderlan.showcase.tasks.enums.GetDataTaskResult;
 import com.tiagoderlan.showcase.utils.Connection;
 
 /**
- * Created by Pichau on 28/07/2016.
+ * Created by Tiago on 28/07/2016.
  */
 public class GetDataAsyncTask extends AsyncTask<Void, GetDataTaskProgress, GetDataTaskResult>
 {
