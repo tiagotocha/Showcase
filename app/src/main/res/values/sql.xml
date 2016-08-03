@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="create_table_product" format="string" type="string">
+        CREATE TABLE IF NOT EXISTS tabProduct
+        (
+            _id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT not null,
+            description TEXT not null,
+            photo TEXT not null,
+            price DOUBLE not null,
+            favorite BIT not null,
+            category_id INTEGER REFERENCES tabCategory(_id)
+        )
+    </item>
+    <item name="drop_table_product" format="string" type="string">
+        DROP TABLE IF EXISTS tabProduct
+    </item>
+
+    <item name="clear_table_product" format="string" type="string">
+        DELETE FROM tabProduct
+    </item>
+
+
+    <item name="create_table_category" format="string" type="string">
+        CREATE TABLE IF NOT EXISTS tabCategory
+        (
+            _id TEXT PRIMARY KEY not null,
+            name VARCHAR(100) not null
+        )
+    </item>
+    <item name="drop_table_category" format="string" type="string">
+        DROP TABLE IF EXISTS tabCategory
+    </item>
+
+    <item name="clear_table_category" format="string" type="string">
+        DELETE FROM tabCategory
+    </item>
+
+
+
+    <item name="create_table_content" format="string" type="string">
+        CREATE TABLE IF NOT EXISTS tabContent
+        (
+            bloburl TEXT PRIMARY KEY NOT NULL,
+            data BLOB not null
+        )
+    </item>
+    <item name="drop_table_content" format="string" type="string">
+        DROP TABLE IF EXISTS tabContent
+    </item>
+
+    <item name="clear_table_content" format="string" type="string">
+        DELETE FROM tabContent
+    </item>
+
+</resources>
